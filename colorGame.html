@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    
+    
+</head>
+<body>
+        <div id="title" class="jumbotron">
+            <h1 class="display-2">Welcome to Color Guessing Game!</h1>
+            <p>where your eye and color intuition will be tested...</p>
+
+            <div>
+                <button id="start" class="btn btn-dark active">Play!</button>
+                <button id="reset" class="btn btn-secondary active">Reset</button>
+            </div>
+        </div>
+        
+        <div class="alert alert-dark text-center sticky-top" role="alert" data-spy="affix" data-offset-top="197">
+                <span id="gameMessage1">Click "Play!" to start!</span><br/>
+                <span id="gameMessage2">&nbsp;</span><br/>
+                <span id="scoreBoard">&nbsp;</span>
+        </div>
+
+
+
+        
+        <div class="container">
+        <div class="row">
+            
+                <div class="col-lg-12 col-md-12 text-center col-centered">
+                    <button id="easymd" class="difficulty btn btn-outline-info">Easy Mode</button>
+                    <button id="normmd" class="difficulty btn btn-outline-primary">Normal Mode</button>
+                    <button id="hardmd" class="difficulty btn btn-outline-warning">Hard Mode</button>
+                    <button id="critmd" class="difficulty btn btn-outline-danger">Critical Mode</button>
+                    <button id="secretmd" class="difficulty btn">Secret Mode</button>
+                    </div>
+                <div class="col-lg-6 col-md-12 text-center col-centered" id="gamecon">
+                    </div>
+            </div>
+
+
+        </div>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>

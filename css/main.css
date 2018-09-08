@@ -1,0 +1,32 @@
+body{
+    /* background-color: grey; */
+}
+
+.jumbotron{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+.squareColor{
+    width:150px;
+    height:150px;
+    margin: 4px;
+}
+
+/* Wrong and Right classes */
+
+.wrong{
+    font-weight: bold;
+    color: red;
+}
+
+.right{
+    font-weight: bold;
+    color: green;
+}
