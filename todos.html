@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/todos.css" />
+    
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="col-lg-5 mr-auto ml-auto col-md-12">
+
+            <div class="sticky-top">
+                <h1 class="display-2 text-center">To Do List</h1>
+                <div class="input-group mb-2 mr-sm-2">
+                    <p class="lead text-center">Instruction: press enter or click the button "Submit" to add to the new list.</p>
+                    <input class="form-control" type="text" name="todo">
+                    <button class="btn btn-outline-primary" id="submit">Submit</button>
+                </div>
+            </div>
+
+            
+            <ul class="list-inline">
+                <li><span id="delete"><i class="fas fa-minus-circle"></i></span><span id="content">Initial List</span></li>
+                <li><span id="delete"><i class="fas fa-minus-circle"></i></span><span id="content">Initial List</span></li>
+                <li><span id="delete"><i class="fas fa-minus-circle"></i></span><span id="content">Initial List</span></li>
+                <li><span id="delete"><i class="fas fa-minus-circle"></i></span><span id="content">Initial List</span></li>
+                <li><span id="delete"><i class="fas fa-minus-circle"></i></span><span id="content">Initial List</span></li>
+            </ul>
+        </div>
+
+    </div>
+        
+       
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+        <script src="js/todos.js"></script>
+</body>
+</html>

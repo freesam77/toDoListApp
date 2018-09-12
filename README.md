@@ -1,8 +1,8 @@
-# colorGame
-A simple color guessing game. There are 5 modes, ranging from the easiest to the hardest.
+# To Do List App
+A simple To Do List App made with JQuery.
 
 made with :
 - HTML
 - CSS
 - Bootstrap (Material Design)
-- Vanilla Javascript.
+- JQuery
